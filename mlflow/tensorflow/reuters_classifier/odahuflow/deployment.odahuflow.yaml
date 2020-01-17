@@ -1,4 +1,4 @@
-id: wine
+id: reuters-classifier
 kind: ModelDeployment
 spec:
   image: "<fill-in>"
