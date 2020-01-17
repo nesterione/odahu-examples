@@ -9,4 +9,5 @@ pm.execute_notebook(
 # #parameters=dict(alpha=0.6, ratio=0.1)
 
 with mlflow.start_run():
-    mlflow.log_artifact("out_reuters_clf.ipynb")
+   mlflow.log_metric("testkey", "testvalue")
+   mlflow.log_artifact("out_reuters_clf.ipynb")
