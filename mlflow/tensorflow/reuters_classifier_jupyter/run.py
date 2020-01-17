@@ -1,4 +1,5 @@
 import papermill as pm
+import mlflow
 
 pm.execute_notebook(
    'reuters_clf.ipynb',
